@@ -6,6 +6,15 @@ import { ExternalLink, Github, Shield, AlertTriangle, CheckCircle } from "lucide
 const Projects = () => {
   const projects = [
     {
+      title: "SafePhone NG",
+      description: "Comprehensive security framework for mobile devices in Nigeria, featuring advanced threat detection, secure communications, and digital forensic capabilities for law enforcement and cybersecurity professionals.",
+      tags: ["Mobile Security", "Digital Forensics", "Threat Detection", "Nigeria"],
+      status: "Completed",
+      findings: { critical: 0, high: 1, medium: 3, low: 2 },
+      technologies: ["Android", "iOS", "Kotlin", "Swift", "Python"],
+      impact: "Enhanced mobile security for 10,000+ users across Nigeria"
+    },
+    {
       title: "DeFi Protocol Security Audit",
       description: "Comprehensive security audit of a $50M TVL lending protocol, identifying 8 critical vulnerabilities including reentrancy attacks and price manipulation exploits.",
       tags: ["Smart Contract Audit", "DeFi", "Solidity", "Security"],

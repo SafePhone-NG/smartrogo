@@ -31,7 +31,7 @@ const Navigation = () => {
           {/* Logo */}
           <div className="flex items-center space-x-2">
             <Shield className="w-8 h-8 text-primary" />
-            <span className="text-xl font-bold text-foreground">BlockSec Expert</span>
+            <span className="text-xl font-bold text-foreground">Engr. Smartrogo</span>
           </div>
 
           {/* Desktop Navigation */}
@@ -45,7 +45,11 @@ const Navigation = () => {
                 {item.name}
               </a>
             ))}
-            <Button size="sm" className="gradient-primary hover:shadow-glow transition-smooth">
+            <Button 
+              size="sm" 
+              className="gradient-primary hover:shadow-glow transition-smooth"
+              onClick={() => window.open('https://calendly.com/smartrogo/30min', '_blank')}
+            >
               Hire Me
             </Button>
           </div>
@@ -76,7 +80,10 @@ const Navigation = () => {
                 </a>
               ))}
               <div className="px-3 py-2">
-                <Button className="w-full gradient-primary hover:shadow-glow transition-smooth">
+                <Button 
+                  className="w-full gradient-primary hover:shadow-glow transition-smooth"
+                  onClick={() => window.open('https://calendly.com/smartrogo/30min', '_blank')}
+                >
                   Hire Me
                 </Button>
               </div>

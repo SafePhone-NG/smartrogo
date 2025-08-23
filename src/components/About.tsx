@@ -7,14 +7,15 @@ const About = () => {
     { icon: Shield, label: "Audits Completed", value: "150+" },
     { icon: Code, label: "Smart Contracts", value: "500+" },
     { icon: Search, label: "Vulnerabilities Found", value: "2000+" },
-    { icon: Award, label: "Years Experience", value: "5+" },
+    { icon: Award, label: "Years Experience", value: "10+" },
   ];
 
   const certifications = [
     "Certified Ethical Hacker (CEH)",
     "Certified Information Security Manager (CISM)",
     "Blockchain Security Professional",
-    "Smart Contract Auditor Certification"
+    "Smart Contract Auditor Certification",
+    "Certified Hedera Developer"
   ];
 
   return (
@@ -32,16 +33,18 @@ const About = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
           <div className="space-y-6">
             <p className="text-lg text-muted-foreground leading-relaxed">
-              As a dedicated blockchain security specialist, I've spent years mastering the art of 
-              identifying vulnerabilities in smart contracts and DeFi protocols. My expertise spans 
-              across multiple blockchain ecosystems including Ethereum, Binance Smart Chain, Polygon, 
-              and emerging Layer 2 solutions.
+              As a dedicated blockchain security specialist with over 10 years of cybersecurity experience, 
+              I've mastered the art of identifying vulnerabilities in smart contracts and DeFi protocols. 
+              My expertise spans digital forensic investigations, incident response, and comprehensive security 
+              assessments across multiple blockchain ecosystems including Ethereum, Binance Smart Chain, 
+              Polygon, and emerging Layer 2 solutions.
             </p>
             
             <p className="text-lg text-muted-foreground leading-relaxed">
-              I combine traditional cybersecurity principles with cutting-edge blockchain technology 
-              to provide comprehensive security assessments. My goal is to help projects launch safely 
-              and maintain the highest security standards throughout their lifecycle.
+              I combine traditional cybersecurity principles with cutting-edge blockchain technology and 
+              digital forensic methodologies to provide comprehensive security assessments. My background 
+              in cybersecurity and digital forensic investigation enables me to not only identify vulnerabilities 
+              but also trace attack vectors and provide detailed forensic analysis when incidents occur.
             </p>
 
             <div className="space-y-4">
@@ -50,6 +53,7 @@ const About = () => {
                 {[
                   "Smart Contract Auditing",
                   "DeFi Protocol Security",
+                  "Digital Forensic Investigation",
                   "Blockchain Forensics",
                   "Penetration Testing",
                   "Security Architecture",

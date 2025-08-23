@@ -25,14 +25,14 @@ const Hero = () => {
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold mb-6">
-            <span className="text-gradient">Blockchain</span>
+            <span className="text-gradient">Blockchain &</span>
             <br />
-            <span className="text-foreground">Security Expert</span>
+            <span className="text-foreground">Cybersecurity Expert</span>
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Protecting digital assets and smart contracts through comprehensive security audits, 
-            vulnerability assessments, and blockchain forensics.
+            Protecting digital assets through comprehensive security audits, digital forensic investigations, 
+            vulnerability assessments, and blockchain forensics with over 10 years of cybersecurity expertise.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -43,6 +43,14 @@ const Hero = () => {
             <Button variant="outline" size="lg" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-smooth">
               <Download className="w-5 h-5 mr-2" />
               Download Resume
+            </Button>
+            <Button 
+              variant="outline" 
+              size="lg" 
+              className="border-accent text-accent hover:bg-accent hover:text-accent-foreground transition-smooth"
+              onClick={() => window.open('https://forms.gle/Qn3V6MDU5fQdq8x96', '_blank')}
+            >
+              Log Complaint
             </Button>
           </div>
         </div>

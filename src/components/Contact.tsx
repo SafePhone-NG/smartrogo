@@ -47,7 +47,7 @@ const Contact = () => {
                 <div className="space-y-3">
                   <div className="flex items-center space-x-3">
                     <Mail className="w-5 h-5 text-primary" />
-                    <span className="text-muted-foreground">security@blockchain-expert.com</span>
+                    <span className="text-muted-foreground">smartrogo@gmail.com</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <MapPin className="w-5 h-5 text-primary" />
@@ -86,17 +86,26 @@ const Contact = () => {
                       { icon: Linkedin, href: "#", label: "LinkedIn" },
                       { icon: Twitter, href: "#", label: "Twitter" }, 
                       { icon: Github, href: "#", label: "GitHub" },
-                      { icon: Mail, href: "#", label: "Email" }
+                      { icon: Mail, href: "mailto:smartrogo@gmail.com", label: "Email" }
                     ].map((social, index) => (
                       <Button
                         key={index}
                         variant="outline"
                         size="sm"
                         className="hover:shadow-glow transition-smooth"
+                        onClick={() => window.open(social.href, '_blank')}
                       >
                         <social.icon className="w-4 h-4" />
                       </Button>
                     ))}
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      className="hover:shadow-glow transition-smooth bg-blue-500/10 border-blue-500/30"
+                      onClick={() => window.open('https://t.me/Smartrogo', '_blank')}
+                    >
+                      <span className="text-sm font-mono">TG</span>
+                    </Button>
                   </div>
                 </div>
               </CardContent>
