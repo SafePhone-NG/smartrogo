@@ -26,12 +26,25 @@ const About = () => {
             About <span className="text-gradient">Me</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Passionate about securing the decentralized future through rigorous testing and analysis.
+            Passionate about securing the decentralized future through rigorous testing and analysis. 
+            I also create content and localize complex blockchain concepts into Hausa for Hausa-speaking 
+            communities around the globe.
           </p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
           <div className="space-y-6">
+            {/* Profile Photo */}
+            <div className="flex justify-center lg:justify-start mb-8">
+              <div className="relative">
+                <img 
+                  src="/lovable-uploads/80124525-a293-41c0-80bd-82ae3096eadc.png" 
+                  alt="Engr. Smartrogo - Blockchain & Cybersecurity Expert"
+                  className="w-48 h-48 rounded-full object-cover shadow-elegant border-4 border-primary/20"
+                />
+                <div className="absolute inset-0 rounded-full bg-gradient-primary opacity-10" />
+              </div>
+            </div>
             <p className="text-lg text-muted-foreground leading-relaxed">
               As a dedicated blockchain security specialist with over 10 years of cybersecurity experience, 
               I've mastered the art of identifying vulnerabilities in smart contracts and DeFi protocols. 
