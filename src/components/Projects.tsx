@@ -6,6 +6,15 @@ import { ExternalLink, Github, Shield, AlertTriangle, CheckCircle } from "lucide
 const Projects = () => {
   const projects = [
     {
+      title: "Digital Forensic Investigation",
+      description: "Comprehensive digital forensic investigation services for computer systems, IoT devices, and mobile platforms. Specialized in incident response, evidence collection, and cyber crime analysis for law enforcement and corporate clients.",
+      tags: ["Digital Forensics", "Computer Investigation", "IoT Security", "Mobile Forensics"],
+      status: "Completed",
+      findings: { critical: 2, high: 4, medium: 6, low: 3 },
+      technologies: ["EnCase", "Autopsy", "Cellebrite", "Volatility", "Wireshark"],
+      impact: "Successfully investigated 100+ cybercrime cases with 95% success rate"
+    },
+    {
       title: "SafePhone NG",
       description: "Comprehensive security framework for mobile devices in Nigeria, featuring advanced threat detection, secure communications, and digital forensic capabilities for law enforcement and cybersecurity professionals.",
       tags: ["Mobile Security", "Digital Forensics", "Threat Detection", "Nigeria"],
