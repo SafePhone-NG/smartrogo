@@ -3,6 +3,9 @@ import { Shield, Download, Mail } from "lucide-react";
 import heroImage from "@/assets/hero-blockchain.jpg";
 
 const Hero = () => {
+  // Debug: Ensure Hero component is rendering
+  console.log('Hero component is rendering');
+  
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image with Overlay */}
